@@ -1,4 +1,18 @@
 .side-card {
   background-color: #3d8bfd; }
 
+.show_bg {
+  background-image:
+    linear-gradient(to left, rgba(20, 20, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('asset/sample-coding-image.jpg');
+    height: 1000px;
+    background-size: cover;
+    color: white;
+    padding: 20px;
+}
+
+@font-face {
+  font-family: myriad;
+  src: url(Fonts/Myriad\ Pro\ Regular.ttf);
+}
 /*# sourceMappingURL=style.css.map */
