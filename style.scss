@@ -2,6 +2,19 @@
 @import "bootstrap/scss/variables";
 @import "bootstrap/scss/utilities";
 
-.side-card {
+.side-card-header {
     background-color: $blue-400;
+}
+
+.main-card {
+    transform: scale(1.05, 1.1);
+}
+
+.main-card-header {
+    background-color: $pink-400;
+}
+
+html *
+{
+   font-family: B-Nazanin !important;
 }
