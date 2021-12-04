@@ -15,4 +15,22 @@
   font-family: myriad;
   src: url(Fonts/Myriad\ Pro\ Regular.ttf);
 }
+
+.square_image {
+  height: 300px;
+  width: 300px;
+  padding: 0px;
+}
+
+.right-down-image {
+  position: absolute; 
+  top: 20px; 
+  left: 20px;
+}
+
+img:hover {
+  z-index: -1;
+}
+
+
 /*# sourceMappingURL=style.css.map */
