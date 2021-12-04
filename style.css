@@ -38,18 +38,26 @@ img:hover {
 
 .img__description {
   position: absolute;
-  top: 0;
+  top: 100;
   bottom: 0;
   left: 0;
   right: 0;
+  height: 0;
   background: rgba(52, 56, 58, 0.72);
   color: #fff;
   visibility: hidden;
   opacity: 0;
-  transition: opacity .2s, visibility .2s; }
+  transition: opacity .2s, visibility .2s, height .2s; }
 
 .img__wrap:hover .img__description {
   visibility: visible;
-  opacity: 1; }
+  opacity: 1;
+  height: 100%; }
+
+.carousel-control-prev {
+  left: -90px; }
+
+.carousel-control-next {
+  right: -90px; }
 
 /*# sourceMappingURL=style.css.map */
