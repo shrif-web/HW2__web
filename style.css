@@ -21,8 +21,8 @@ html * {
   font-family: myriad;
   src: url(Fonts/Myriad\ Pro\ Regular.ttf); }
 .square_image {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   padding: 0px; }
 
 .right-down-image {
@@ -30,8 +30,21 @@ html * {
   top: 20px;
   left: 20px; }
 
-img:hover {
-  z-index: -1; }
+.back-img {
+  top: 0;
+  bottom: 0;
+  left:0;
+}
+
+.bottom-right-img {
+  top: 20px;
+  left: 20px;
+}
+
+
+.moving-img-container:hover {
+  z-index: 1;
+}
 
 .img__wrap {
   position: relative; }
