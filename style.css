@@ -17,6 +17,13 @@ html * {
   color: white;
   padding: 20px; }
 
+
+  .subscribe {
+    margin-left: 10px; 
+    background-color: #E0E6FF; 
+    color: #B5B6B9;
+  }
+
 @font-face {
   font-family: myriad;
   src: url(Fonts/Myriad\ Pro\ Regular.ttf); }
